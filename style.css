@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #ff66b2;
+    color: white;
+    padding: 20px 0;
+    border-bottom: 5px solid #ff3399;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #ff3399;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #ff66b2;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+section {
+    padding: 50px 20px;
+    margin: 30px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #ff3399;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 15px 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.game-button {
+    background-color: #ff66b2;
+    padding: 12px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.game-button:hover {
+    background-color: #ff3399;
+    box-shadow: 0 4px 15px rgba(255, 51, 153, 0.6);
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff3399;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+#backToTop:hover {
+    background-color: #FF1493;
+}
